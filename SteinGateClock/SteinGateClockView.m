@@ -9,7 +9,9 @@
 #import "SteinGateClockView.h"
 #import <Masonry/Masonry.h>
 
-static const NSString *debugTag = @"SteinGateClock";
+static NSString* const debugTag = @"SteinGateClock";
+static NSString* const kStyleMeter = @"meter";
+static NSString* const kStyleNormal = @"normal";
 
 @interface SteinGateClockView ()
 // 存储数字图片
@@ -18,6 +20,8 @@ static const NSString *debugTag = @"SteinGateClock";
 @property (nonatomic) NSView *clockView;
 // 存储数字图片对应的image view
 @property (nonatomic) NSMutableDictionary *digitImageViewDict;
+// 时钟样式
+@property (nonatomic) NSString *clockStyle;
 
 @end
 
@@ -31,6 +35,9 @@ static const NSString *debugTag = @"SteinGateClock";
     
     if (self) {
         [self setAnimationTimeInterval:1/30.0];
+        // 默认样式
+        self.clockStyle = kStyleMeter;
+        
         // 初始化dict
         self.digitImageDict = NSMutableDictionary.dictionary;
         self.digitImageViewDict = NSMutableDictionary.dictionary;
@@ -52,7 +59,7 @@ static const NSString *debugTag = @"SteinGateClock";
         }
         
         [self setupClockView];
-        [self updateClockView];
+        [self updateClockView:self.clockStyle];
         
     }
     
@@ -102,7 +109,8 @@ static const NSString *debugTag = @"SteinGateClock";
 }
 
 // 根据当前时间更新clock view
-- (void)updateClockView{
+- (void)updateClockView:(NSString *)style{
+    
     NSLog(@"%@ clock view: %@", debugTag, self.clockView);
     // 获取当前时间的各个数字
     // 当前时间
@@ -122,38 +130,84 @@ static const NSString *debugTag = @"SteinGateClock";
     int minute = dateComponent.minute;
     int second = dateComponent.second;
     
-    int hour1 = hour / 10;
-    int hour2 = hour % 10;
     
-    int minute1 = minute / 10;
-    int minute2 = minute % 10;
     
-    int second1 = second / 10;
-    int second2 = second % 10;
     
-    for (int i = 0; i < 8; i++) {
-        NSImageView *imageView = self.digitImageViewDict[@(i)];
-        NSLog(@"%@ image view: %@", debugTag, imageView);
-        if (i == 0) {
-            imageView.image = self.digitImageDict[@(hour1)];
-        }else if (i == 1){
-            imageView.image = self.digitImageDict[@(hour2)];
-        }else if (i == 2){
-            imageView.image = self.digitImageDict[@(12)];
-        }else if (i == 3){
-            imageView.image = self.digitImageDict[@(minute1)];
-        }else if (i == 4){
-            imageView.image = self.digitImageDict[@(minute2)];
-        }else if (i == 5){
-            imageView.image = self.digitImageDict[@(12)];
-        }else if (i == 6){
-            imageView.image = self.digitImageDict[@(second1)];
-        }else if (i == 7){
-            imageView.image = self.digitImageDict[@(second2)];
-        }else{
-            NSLog(@"impossible");
+    if ([style isEqualToString:@"normal"]) {
+        // 普通24小时样式
+        int hour1 = hour / 10;
+        int hour2 = hour % 10;
+        
+        int minute1 = minute / 10;
+        int minute2 = minute % 10;
+        
+        int second1 = second / 10;
+        int second2 = second % 10;
+        for (int i = 0; i < 8; i++) {
+            NSImageView *imageView = self.digitImageViewDict[@(i)];
+            NSLog(@"%@ image view: %@", debugTag, imageView);
+            if (i == 0) {
+                imageView.image = self.digitImageDict[@(hour1)];
+            }else if (i == 1){
+                imageView.image = self.digitImageDict[@(hour2)];
+            }else if (i == 2){
+                imageView.image = self.digitImageDict[@(12)];
+            }else if (i == 3){
+                imageView.image = self.digitImageDict[@(minute1)];
+            }else if (i == 4){
+                imageView.image = self.digitImageDict[@(minute2)];
+            }else if (i == 5){
+                imageView.image = self.digitImageDict[@(12)];
+            }else if (i == 6){
+                imageView.image = self.digitImageDict[@(second1)];
+            }else if (i == 7){
+                imageView.image = self.digitImageDict[@(second2)];
+            }else{
+                NSLog(@"impossible");
+            }
         }
+    }else if ([style isEqualToString:@"meter"]){
+        // 变动率样式，上午是0.xxxxxxx, 下午是1.xxxxxx
+        int flag = hour / 12;
+        // 12小时制
+        int hour12 = hour % 12;
+        int hour1 = hour12 / 10;
+        int hour2 = hour12 % 10;
+        
+        int minute1 = minute / 10;
+        int minute2 = minute % 10;
+        
+        int second1 = second / 10;
+        int second2 = second % 10;
+        
+        
+        for (int i = 0; i < 8; i++) {
+            NSImageView *imageView = self.digitImageViewDict[@(i)];
+            NSLog(@"%@ image view: %@", debugTag, imageView);
+            if (i == 0) {
+                imageView.image = self.digitImageDict[@(flag)];
+            }else if (i == 1){
+                imageView.image = self.digitImageDict[@(12)];
+            }else if (i == 2){
+                imageView.image = self.digitImageDict[@(hour1)];
+            }else if (i == 3){
+                imageView.image = self.digitImageDict[@(hour2)];
+            }else if (i == 4){
+                imageView.image = self.digitImageDict[@(minute1)];
+            }else if (i == 5){
+                imageView.image = self.digitImageDict[@(minute2)];
+            }else if (i == 6){
+                imageView.image = self.digitImageDict[@(second1)];
+            }else if (i == 7){
+                imageView.image = self.digitImageDict[@(second2)];
+            }else{
+                NSLog(@"impossible");
+            }
+        }
+
+        
     }
+    
     
     
     
@@ -192,7 +246,7 @@ static const NSString *debugTag = @"SteinGateClock";
 {
     NSLog(@"%@ %@ thread is:%@", debugTag, NSStringFromSelector(_cmd),NSThread.currentThread);
     NSLog(@"%@ %@", debugTag, NSStringFromSelector(_cmd));
-    [self updateClockView];
+    [self updateClockView:self.clockStyle];
     
     return;
 }
