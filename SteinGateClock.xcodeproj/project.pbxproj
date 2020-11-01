@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A071C6022549B39E00C9D110 /* SteinGateClockView.h in Headers */ = {isa = PBXBuildFile; fileRef = A071C6012549B39E00C9D110 /* SteinGateClockView.h */; };
+		A071C6042549B39E00C9D110 /* SteinGateClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = A071C6032549B39E00C9D110 /* SteinGateClockView.m */; };
+		A071C6162549B8AD00C9D110 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C60C2549B8AC00C9D110 /* 1.png */; };
+		A071C6172549B8AD00C9D110 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C60D2549B8AC00C9D110 /* 7.png */; };
+		A071C6182549B8AD00C9D110 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C60E2549B8AC00C9D110 /* 6.png */; };
+		A071C6192549B8AD00C9D110 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C60F2549B8AC00C9D110 /* 0.png */; };
+		A071C61A2549B8AD00C9D110 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C6102549B8AC00C9D110 /* 3.png */; };
+		A071C61B2549B8AD00C9D110 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C6112549B8AC00C9D110 /* 9.png */; };
+		A071C61C2549B8AD00C9D110 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C6122549B8AC00C9D110 /* 4.png */; };
+		A071C61D2549B8AD00C9D110 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C6132549B8AC00C9D110 /* 2.png */; };
+		A071C61E2549B8AD00C9D110 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C6142549B8AD00C9D110 /* 5.png */; };
+		A071C61F2549B8AD00C9D110 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C6152549B8AD00C9D110 /* 8.png */; };
+		A071C6232549B8E500C9D110 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C6202549B8E500C9D110 /* 11.png */; };
+		A071C6242549B8E500C9D110 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C6212549B8E500C9D110 /* 12.png */; };
+		A071C6252549B8E500C9D110 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = A071C6222549B8E500C9D110 /* 10.png */; };
+		BB550AA360FEDEEA68DBB38F /* libPods-SteinGateClock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B311D8ADB95C9898F856E9 /* libPods-SteinGateClock.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0C54194254ED8D0006C1E0B /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12029AEAF876CB11BFDC3B8F /* Pods-SteinGateClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteinGateClock.release.xcconfig"; path = "Target Support Files/Pods-SteinGateClock/Pods-SteinGateClock.release.xcconfig"; sourceTree = "<group>"; };
+		5DB2507B35512D8968EB3121 /* Pods-SteinGateClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteinGateClock.debug.xcconfig"; path = "Target Support Files/Pods-SteinGateClock/Pods-SteinGateClock.debug.xcconfig"; sourceTree = "<group>"; };
+		A071C5FE2549B39E00C9D110 /* SteinGateClock.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteinGateClock.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		A071C6012549B39E00C9D110 /* SteinGateClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteinGateClockView.h; sourceTree = "<group>"; };
+		A071C6032549B39E00C9D110 /* SteinGateClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteinGateClockView.m; sourceTree = "<group>"; };
+		A071C6052549B39E00C9D110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A071C60C2549B8AC00C9D110 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		A071C60D2549B8AC00C9D110 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		A071C60E2549B8AC00C9D110 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		A071C60F2549B8AC00C9D110 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		A071C6102549B8AC00C9D110 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		A071C6112549B8AC00C9D110 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		A071C6122549B8AC00C9D110 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		A071C6132549B8AC00C9D110 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		A071C6142549B8AD00C9D110 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		A071C6152549B8AD00C9D110 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		A071C6202549B8E500C9D110 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		A071C6212549B8E500C9D110 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		A071C6222549B8E500C9D110 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		A0C54198254EDC35006C1E0B /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B311D8ADB95C9898F856E9 /* libPods-SteinGateClock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SteinGateClock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A071C5FB2549B39E00C9D110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB550AA360FEDEEA68DBB38F /* libPods-SteinGateClock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37FD7070D121EF3664731EF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DB2507B35512D8968EB3121 /* Pods-SteinGateClock.debug.xcconfig */,
+				12029AEAF876CB11BFDC3B8F /* Pods-SteinGateClock.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A071C5F42549B39E00C9D110 = {
+			isa = PBXGroup;
+			children = (
+				A071C6002549B39E00C9D110 /* SteinGateClock */,
+				A071C5FF2549B39E00C9D110 /* Products */,
+				37FD7070D121EF3664731EF3 /* Pods */,
+				F1F1A7C643ECE22AD46377CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A071C5FF2549B39E00C9D110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A071C5FE2549B39E00C9D110 /* SteinGateClock.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A071C6002549B39E00C9D110 /* SteinGateClock */ = {
+			isa = PBXGroup;
+			children = (
+				A071C60F2549B8AC00C9D110 /* 0.png */,
+				A071C60C2549B8AC00C9D110 /* 1.png */,
+				A071C6132549B8AC00C9D110 /* 2.png */,
+				A071C6102549B8AC00C9D110 /* 3.png */,
+				A071C6222549B8E500C9D110 /* 10.png */,
+				A071C6202549B8E500C9D110 /* 11.png */,
+				A071C6212549B8E500C9D110 /* 12.png */,
+				A071C6122549B8AC00C9D110 /* 4.png */,
+				A071C6142549B8AD00C9D110 /* 5.png */,
+				A071C60E2549B8AC00C9D110 /* 6.png */,
+				A071C60D2549B8AC00C9D110 /* 7.png */,
+				A071C6152549B8AD00C9D110 /* 8.png */,
+				A071C6112549B8AC00C9D110 /* 9.png */,
+				A071C6012549B39E00C9D110 /* SteinGateClockView.h */,
+				A071C6032549B39E00C9D110 /* SteinGateClockView.m */,
+				A071C6052549B39E00C9D110 /* Info.plist */,
+			);
+			path = SteinGateClock;
+			sourceTree = "<group>";
+		};
+		F1F1A7C643ECE22AD46377CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C54198254EDC35006C1E0B /* Masonry.framework */,
+				B7B311D8ADB95C9898F856E9 /* libPods-SteinGateClock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A071C5F92549B39E00C9D110 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A071C6022549B39E00C9D110 /* SteinGateClockView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A071C5FD2549B39E00C9D110 /* SteinGateClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A071C6082549B39E00C9D110 /* Build configuration list for PBXNativeTarget "SteinGateClock" */;
+			buildPhases = (
+				6B7BD748D7492C00F0CCEF7C /* [CP] Check Pods Manifest.lock */,
+				A071C5F92549B39E00C9D110 /* Headers */,
+				A071C5FA2549B39E00C9D110 /* Sources */,
+				A071C5FB2549B39E00C9D110 /* Frameworks */,
+				A071C5FC2549B39E00C9D110 /* Resources */,
+				A0C54194254ED8D0006C1E0B /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteinGateClock;
+			productName = SteinGateClock;
+			productReference = A071C5FE2549B39E00C9D110 /* SteinGateClock.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A071C5F52549B39E00C9D110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = nuko;
+				TargetAttributes = {
+					A071C5FD2549B39E00C9D110 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = A071C5F82549B39E00C9D110 /* Build configuration list for PBXProject "SteinGateClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A071C5F42549B39E00C9D110;
+			productRefGroup = A071C5FF2549B39E00C9D110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A071C5FD2549B39E00C9D110 /* SteinGateClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A071C5FC2549B39E00C9D110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A071C6252549B8E500C9D110 /* 10.png in Resources */,
+				A071C6242549B8E500C9D110 /* 12.png in Resources */,
+				A071C6232549B8E500C9D110 /* 11.png in Resources */,
+				A071C61F2549B8AD00C9D110 /* 8.png in Resources */,
+				A071C61A2549B8AD00C9D110 /* 3.png in Resources */,
+				A071C61C2549B8AD00C9D110 /* 4.png in Resources */,
+				A071C61D2549B8AD00C9D110 /* 2.png in Resources */,
+				A071C6192549B8AD00C9D110 /* 0.png in Resources */,
+				A071C6182549B8AD00C9D110 /* 6.png in Resources */,
+				A071C61B2549B8AD00C9D110 /* 9.png in Resources */,
+				A071C61E2549B8AD00C9D110 /* 5.png in Resources */,
+				A071C6162549B8AD00C9D110 /* 1.png in Resources */,
+				A071C6172549B8AD00C9D110 /* 7.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B7BD748D7492C00F0CCEF7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SteinGateClock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A071C5FA2549B39E00C9D110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A071C6042549B39E00C9D110 /* SteinGateClockView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A071C6062549B39E00C9D110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A071C6072549B39E00C9D110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A071C6092549B39E00C9D110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB2507B35512D8968EB3121 /* Pods-SteinGateClock.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 398CU38BG6;
+				INFOPLIST_FILE = SteinGateClock/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuko.SteinGateClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		A071C60A2549B39E00C9D110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12029AEAF876CB11BFDC3B8F /* Pods-SteinGateClock.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 398CU38BG6;
+				INFOPLIST_FILE = SteinGateClock/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuko.SteinGateClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A071C5F82549B39E00C9D110 /* Build configuration list for PBXProject "SteinGateClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A071C6062549B39E00C9D110 /* Debug */,
+				A071C6072549B39E00C9D110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A071C6082549B39E00C9D110 /* Build configuration list for PBXNativeTarget "SteinGateClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A071C6092549B39E00C9D110 /* Debug */,
+				A071C60A2549B39E00C9D110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A071C5F52549B39E00C9D110 /* Project object */;
+}
